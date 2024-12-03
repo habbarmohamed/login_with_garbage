@@ -7,16 +7,16 @@
   </h1>
 </div>
 
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Garbage msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Garbage from './components/Garbage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Garbage
   }
 }
 </script>
